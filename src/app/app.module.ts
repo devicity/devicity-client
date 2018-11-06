@@ -12,6 +12,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
+    BrowserModule.withServerTransition({appId: 'devicity-client'}),
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule
