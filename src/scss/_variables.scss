@@ -1,0 +1,10 @@
+$teal: rgba(0, 128, 128, 1.0);
+$black-footer: rgba(0, 0, 0, 1.0);
+$hamburger-div-as-child-of-fab: rgba(255, 255, 255, 0.8);
+$fab: rgba(0, 0, 200, 1.0);
+$fab-transition: background 500ms cubic-bezier(0.25, 0.5, 0.75, 1.0), left 500ms cubic-bezier(0.25, 0.5, 0.75, 1.0);
+$fab-hover: rgba(0, 100, 120, 0.9);
+$hamburger-transition: transform 500ms cubic-bezier(0.25, 0.5, 0.75, 1.0);
+$hamburger-top-active-transform: rotate(45deg) translate(0, 14px);
+$hamburger-bottom-active-transform: rotate(-45deg) translate(0, -14px);
+$sidebar-transition: opacity 500ms cubic-bezier(0.25, 0.5, 0.75, 1.0), left 500ms cubic-bezier(0.25, 0.5, 0.75, 1.0);
