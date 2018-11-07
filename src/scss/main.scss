@@ -28,13 +28,15 @@ body {
     height: 100%;
     width: 200px;
     opacity: 0;
-    background-color: #f5f5f5;
+    background-color: transparentize(rgba(0, 0, 0, 1.0), 0.5);
+    background-attachment: scroll;
     transition: $sidebar-transition;
+    border: thin solid #dcdcdc;
   }
 
   #sidebar.active {
     opacity: 1;
-    left: 0px;
+    left: -1px;
   }
 
   .leftify {
@@ -93,6 +95,7 @@ body {
       background-color: black;
     }
     #hamburger-middle {
+  
       opacity: 0;
     }
     #hamburger-bottom {
